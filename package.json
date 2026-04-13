@@ -1,0 +1,18 @@
+{
+  "name": "anon-bot-platform",
+  "version": "2.0.0",
+  "description": "Anonymous message bot platform — each user connects their own bot token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
